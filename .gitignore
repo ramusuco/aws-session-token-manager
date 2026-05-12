@@ -1,0 +1,7 @@
+settings.json
+venv
+*env
+*.ipynb
+*.key
+*.pem
+*.log

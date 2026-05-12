@@ -1,0 +1,23 @@
+{
+    "aws_credential_path": "~/.aws/credentials",
+    "profiles": [
+        {
+            "profile_name": "develop",
+            "aws_access_key_id": "****************",
+            "aws_secret_access_key": "********************************",
+            "mfa_secret": "************************************************",
+            "serial": "arn:aws:iam::123456789012:mfa/dev-user",
+            "region": "ap-northeast-1",
+            "default": true
+        },
+        {
+            "profile_name": "prod",
+            "aws_access_key_id": "****************",
+            "aws_secret_access_key": "********************************",
+            "mfa_secret": "************************************************",
+            "serial": "arn:aws:iam::123456789012:mfa/prod-user",
+            "region": "ap-northeast-1",
+            "default": false
+        }
+    ]
+}
